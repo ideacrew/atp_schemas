@@ -15,12 +15,12 @@ public class SchemaCheckerTest {
   
   @Test
   public void CheckConstraintTest() throws Exception {
-    checkSchema("constraint", "/exchange/ExchangeModel.xsd");
+    checkSchema("constraint", "/exchange/SBM.xsd");
   }
   
   @Test
   public void CheckUnconstrainedTest() throws Exception {
-    checkSchema("unconstrained", "/exchange/SBM.xsd");
+    checkSchema("unconstrained", "/exchange/ExchangeModel.xsd");
   }
 
   private void checkSchema(String path, String schemaName) throws Exception {

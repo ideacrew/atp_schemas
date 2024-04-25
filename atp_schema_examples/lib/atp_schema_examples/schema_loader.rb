@@ -5,7 +5,7 @@ module AtpSchemaExamples
     EXTENDED_SCHEMA_PATH = File.join(
       File.dirname(__FILE__),
       "../../../",
-      "XSD/XMLSchemas/unconstrained/exchange/SBM.xsd"
+      "XSD/XMLSchemas/constraint/exchange/SBM.xsd"
     )
 
     def self.load_extended_schema
