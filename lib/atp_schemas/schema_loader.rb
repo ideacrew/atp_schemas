@@ -1,10 +1,10 @@
 require "nokogiri"
 
-module AtpSchemaExamples
+module AtpSchemas
   class SchemaLoader
     EXTENDED_SCHEMA_PATH = File.join(
       File.dirname(__FILE__),
-      "../../../",
+      "../../",
       "XSD/XMLSchemas/constraint/exchange/SBM.xsd"
     )
 

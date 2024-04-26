@@ -1,4 +1,4 @@
-module AtpSchemaExamples
+module AtpSchemas
   class DocumentValidationSuccess
     def errors; []; end
   end

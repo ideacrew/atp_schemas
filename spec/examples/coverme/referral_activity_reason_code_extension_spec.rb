@@ -1,8 +1,8 @@
 require "spec_helper"
 
 describe "An extended schema allowing additional referral activity reason codes" do
-  let(:schema) { AtpSchemaExamples::SchemaLoader.load_extended_schema }
-  let(:validator) { AtpSchemaExamples::Validator.new(schema) }
+  let(:schema) { AtpSchemas::SchemaLoader.load_extended_schema }
+  let(:validator) { AtpSchemas::Validator.new(schema) }
   let(:example_document) { Nokogiri::XML(document_string) }
 
   let(:document_string) do
