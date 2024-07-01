@@ -6,10 +6,13 @@
             xmlns:hix-types="http://hix.cms.gov/0.1/hix-types"
             xmlns:s="http://niem.gov/niem/structures/2.0"
             xmlns:me-atp="http://xmlns.coverme.gov/atp/hix-ee"
+            xmlns:dc-atp="http://xmlns.dchealthlink.com/atp/hix-ee"
             attributeFormDefault="qualified"
-            elementFormDefault="qualified" targetNamespace="http://xmlns.ideacrew.com/atp/hix-ee" version="1">
+            elementFormDefault="qualified" targetNamespace="http://xmlns.ideacrew.com/atp/0.1.0/hix-ee" version="1">
     <xsd:import namespace="http://at.dsh.cms.gov/exchange/1.0"
                 schemaLocation="./ExchangeModel.xsd" />
+    <xsd:import namespace="http://xmlns.dchealthlink.com/atp/hix-ee"
+                schemaLocation="./SBM_DCHBX.xsd" />
     <xsd:import namespace="http://xmlns.coverme.gov/atp/hix-ee"
-                schemaLocation="./SBM_ME0.xsd" />
+                schemaLocation="./SBM_MESBM.xsd" />
 </xsd:schema>
