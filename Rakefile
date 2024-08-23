@@ -1,7 +1,6 @@
 require 'fileutils'
 
 namespace :package do
-  desc "Clean the package directory"
   task :clean do
     FileUtils.rm_rf("./package", verbose: true)
   end

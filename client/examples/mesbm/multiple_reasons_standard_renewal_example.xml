@@ -65,9 +65,7 @@
         <hix-ee:ReferralActivityStatus>
           <hix-ee:ReferralActivityStatusCode>Initiated</hix-ee:ReferralActivityStatusCode>
         </hix-ee:ReferralActivityStatus>
-        <hix-ee:ReferralActivityReasonCode>FullDetermination</hix-ee:ReferralActivityReasonCode>
-        <me-atp:AdditionalReferralActivityReasonCode>GapFilling</me-atp:AdditionalReferralActivityReasonCode>
-        <me-atp:AdditionalReferralActivityReasonCode>WaitingPeriodException</me-atp:AdditionalReferralActivityReasonCode>
+        <me-atp:AdditionalReferralActivityReasonCode>Renewal</me-atp:AdditionalReferralActivityReasonCode>
       </me-atp:ReferralActivity>
     </hix-ee:InsuranceApplicant>
     <hix-ee:InsuranceApplicant>
@@ -94,9 +92,7 @@
         <hix-ee:ReferralActivityStatus>
           <hix-ee:ReferralActivityStatusCode>Initiated</hix-ee:ReferralActivityStatusCode>
         </hix-ee:ReferralActivityStatus>
-        <hix-ee:ReferralActivityReasonCode>FullDetermination</hix-ee:ReferralActivityReasonCode>
-        <me-atp:AdditionalReferralActivityReasonCode>GapFilling</me-atp:AdditionalReferralActivityReasonCode>
-        <me-atp:AdditionalReferralActivityReasonCode>WaitingPeriodException</me-atp:AdditionalReferralActivityReasonCode>
+        <me-atp:AdditionalReferralActivityReasonCode>Renewal</me-atp:AdditionalReferralActivityReasonCode>
       </me-atp:ReferralActivity>
     </hix-ee:InsuranceApplicant>
     <hix-ee:InsuranceApplicant>
@@ -123,9 +119,7 @@
         <hix-ee:ReferralActivityStatus>
           <hix-ee:ReferralActivityStatusCode>Initiated</hix-ee:ReferralActivityStatusCode>
         </hix-ee:ReferralActivityStatus>
-        <hix-ee:ReferralActivityReasonCode>FullDetermination</hix-ee:ReferralActivityReasonCode>
-        <me-atp:AdditionalReferralActivityReasonCode>GapFilling</me-atp:AdditionalReferralActivityReasonCode>
-        <me-atp:AdditionalReferralActivityReasonCode>WaitingPeriodException</me-atp:AdditionalReferralActivityReasonCode>
+        <me-atp:AdditionalReferralActivityReasonCode>Renewal</me-atp:AdditionalReferralActivityReasonCode>
       </me-atp:ReferralActivity>
     </hix-ee:InsuranceApplicant>
     <hix-ee:InsuranceApplicationRequestingFinancialAssistanceIndicator>true</hix-ee:InsuranceApplicationRequestingFinancialAssistanceIndicator>
