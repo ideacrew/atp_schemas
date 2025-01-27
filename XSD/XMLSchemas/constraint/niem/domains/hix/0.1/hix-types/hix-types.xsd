@@ -350,6 +350,11 @@
                <xsd:documentation source="">Non-Immigrant</xsd:documentation>
             </xsd:annotation>
          </xsd:enumeration>
+         <xsd:enumeration value="15">
+            <xsd:annotation>
+               <xsd:documentation source="">Application Pending (Adj of Status) - Temporary Employment Authorization</xsd:documentation>
+            </xsd:annotation>
+         </xsd:enumeration>
          <xsd:enumeration value="18">
             <xsd:annotation>
                <xsd:documentation source="">Refugee – Employment Authorized</xsd:documentation>
@@ -378,6 +383,16 @@
          <xsd:enumeration value="37">
             <xsd:annotation>
                <xsd:documentation source="">Initial Verification Failed: Name or Date of Birth (DOB) Mismatch or Record Not Found for Document Number</xsd:documentation>
+            </xsd:annotation>
+         </xsd:enumeration>
+         <xsd:enumeration value="39">
+            <xsd:annotation>
+               <xsd:documentation source="">Institute Third Level Verification</xsd:documentation>
+            </xsd:annotation>
+         </xsd:enumeration>
+         <xsd:enumeration value="44">
+            <xsd:annotation>
+               <xsd:documentation source="">Case Sent to Third Level Verification</xsd:documentation>
             </xsd:annotation>
          </xsd:enumeration>
          <xsd:enumeration value="119">
@@ -413,6 +428,151 @@
          <xsd:enumeration value="189">
             <xsd:annotation>
                <xsd:documentation source="">Temporary Protected Status – Employment Authorized</xsd:documentation>
+            </xsd:annotation>
+         </xsd:enumeration>
+         <xsd:enumeration value="228">
+            <xsd:annotation>
+               <xsd:documentation source="">Family Unity Temp Employment Authorized</xsd:documentation>
+            </xsd:annotation>
+         </xsd:enumeration>
+         <xsd:enumeration value="248">
+            <xsd:annotation>
+               <xsd:documentation source="">Conditional Resident</xsd:documentation>
+            </xsd:annotation>
+         </xsd:enumeration>
+         <xsd:enumeration value="249">
+            <xsd:annotation>
+               <xsd:documentation source="">Conditional Resident - Employment Authorized</xsd:documentation>
+            </xsd:annotation>
+         </xsd:enumeration>
+         <xsd:enumeration value="250">
+            <xsd:annotation>
+               <xsd:documentation source="">Parolee</xsd:documentation>
+            </xsd:annotation>
+         </xsd:enumeration>
+         <xsd:enumeration value="251">
+            <xsd:annotation>
+               <xsd:documentation source="">American Indian Born in Canada Employment Authorized</xsd:documentation>
+            </xsd:annotation>
+         </xsd:enumeration>
+         <xsd:enumeration value="288">
+            <xsd:annotation>
+               <xsd:documentation source="">Parolee Indefinite - Not Employment Authorized</xsd:documentation>
+            </xsd:annotation>
+         </xsd:enumeration>
+         <xsd:enumeration value="328">
+            <xsd:annotation>
+               <xsd:documentation source="">Non-Immigrant - Employment Authorized Indefinite</xsd:documentation>
+            </xsd:annotation>
+         </xsd:enumeration>
+         <xsd:enumeration value="368">
+            <xsd:annotation>
+               <xsd:documentation source="">Application Pending (Asylum) - Not Employment Indefinite</xsd:documentation>
+            </xsd:annotation>
+         </xsd:enumeration>
+         <xsd:enumeration value="369">
+            <xsd:annotation>
+               <xsd:documentation source="">Application Pending (Asylum) - Temporary Employment Authorized</xsd:documentation>
+            </xsd:annotation>
+         </xsd:enumeration>
+         <xsd:enumeration value="370">
+            <xsd:annotation>
+               <xsd:documentation source="">Application Pending (Adj of Status) - Not Employment Authorized</xsd:documentation>
+            </xsd:annotation>
+         </xsd:enumeration>
+         <xsd:enumeration value="371">
+            <xsd:annotation>
+               <xsd:documentation source="">No Status - Granted Witholding of Removal - Indefinitely Employment Authorized</xsd:documentation>
+            </xsd:annotation>
+         </xsd:enumeration>
+         <xsd:enumeration value="372">
+            <xsd:annotation>
+               <xsd:documentation source="">No Status - Temporary Employment Authorized</xsd:documentation>
+            </xsd:annotation>
+         </xsd:enumeration>
+         <xsd:enumeration value="373">
+            <xsd:annotation>
+               <xsd:documentation source="">Deferred Action - Not Employment Authorized</xsd:documentation>
+            </xsd:annotation>
+         </xsd:enumeration>
+         <xsd:enumeration value="374">
+            <xsd:annotation>
+               <xsd:documentation source="">Application Pending (TPS) - Temporary Employment Authorized</xsd:documentation>
+            </xsd:annotation>
+         </xsd:enumeration>
+         <xsd:enumeration value="375">
+            <xsd:annotation>
+               <xsd:documentation source="">No Status - Employment Authorized Indefinitely</xsd:documentation>
+            </xsd:annotation>
+         </xsd:enumeration>
+         <xsd:enumeration value="376">
+            <xsd:annotation>
+               <xsd:documentation source="">No Status - Not Employment Authorized</xsd:documentation>
+            </xsd:annotation>
+         </xsd:enumeration>
+         <xsd:enumeration value="377">
+            <xsd:annotation>
+               <xsd:documentation source="">Approved VAWA Self-Petition</xsd:documentation>
+            </xsd:annotation>
+         </xsd:enumeration>
+         <xsd:enumeration value="378">
+            <xsd:annotation>
+               <xsd:documentation source="">VAWA Self-Petition Prima Facie Determination</xsd:documentation>
+            </xsd:annotation>
+         </xsd:enumeration>
+         <xsd:enumeration value="379">
+            <xsd:annotation>
+               <xsd:documentation source="">Approved VAWA Self-Petition - Temporary Employment Authorized</xsd:documentation>
+            </xsd:annotation>
+         </xsd:enumeration>
+         <xsd:enumeration value="380">
+            <xsd:annotation>
+               <xsd:documentation source="">Deferred Action - Temporary Employment Authorized</xsd:documentation>
+            </xsd:annotation>
+         </xsd:enumeration>
+         <xsd:enumeration value="381">
+            <xsd:annotation>
+               <xsd:documentation source="">Parolee Indefinite - Temporary Employment Authorized</xsd:documentation>
+            </xsd:annotation>
+         </xsd:enumeration>
+         <xsd:enumeration value="382">
+            <xsd:annotation>
+               <xsd:documentation source="">Deferred Enforced Departure - Temporary Employed Authorized</xsd:documentation>
+            </xsd:annotation>
+         </xsd:enumeration>
+         <xsd:enumeration value="383">
+            <xsd:annotation>
+               <xsd:documentation source="">Conditonal Entrant - Employment Authorized Indefinitely</xsd:documentation>
+            </xsd:annotation>
+         </xsd:enumeration>
+         <xsd:enumeration value="384">
+            <xsd:annotation>
+               <xsd:documentation source="">Deferred Action - Employment Authorized Indefinitely</xsd:documentation>
+            </xsd:annotation>
+         </xsd:enumeration>
+         <xsd:enumeration value="385">
+            <xsd:annotation>
+               <xsd:documentation source="">Application Pending (TPS) - Not Employment Authorized</xsd:documentation>
+            </xsd:annotation>
+         </xsd:enumeration>
+         <xsd:enumeration value="386">
+            <xsd:annotation>
+               <xsd:documentation source="">Non-Immigrant - Not Employment Authorized</xsd:documentation>
+            </xsd:annotation>
+         </xsd:enumeration>
+         <xsd:enumeration value="387">
+            <xsd:annotation>
+               <xsd:documentation source="">Deferred Action for Childhood Arrivals (DACA) - Not Employment Authorized</xsd:documentation>
+            </xsd:annotation>
+         </xsd:enumeration>
+         <xsd:enumeration value="401">
+            <xsd:annotation>
+               <xsd:documentation source="">Parolee - Temporary Employment Authorized</xsd:documentation>
+            </xsd:annotation>
+         </xsd:enumeration>
+         <xsd:enumeration value="402">
+            <xsd:annotation>
+               <xsd:documentation source="">Parolee - Not Employment Authorized</xsd:documentation>
             </xsd:annotation>
          </xsd:enumeration>
       </xsd:restriction>
@@ -771,6 +931,11 @@
          <xsd:enumeration value="P">
             <xsd:annotation>
                <xsd:documentation source="">Verification pended</xsd:documentation>
+            </xsd:annotation>
+         </xsd:enumeration>
+         <xsd:enumeration value="X">
+            <xsd:annotation>
+               <xsd:documentation source="">U.S. citizen</xsd:documentation>
             </xsd:annotation>
          </xsd:enumeration>
       </xsd:restriction>
